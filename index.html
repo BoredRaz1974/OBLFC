@@ -1,228 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>OBLFC</title>
     <style>
 
-
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-
-
-.wrapper {
-  height: 10px;
-  /*This part is important for centering*/
-  display: grid;
-  
-}
-
-.OBLFC {
-  width: 15px;
-  animation: typing 2s steps(5), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: "montserrat", sans-serif;
-  
-  display: table;
-
-font-family: "Montserrat", sans-serif;
-
-align-items: left;
-
-justify-content: left;
-
-margin-top: 50px;
-
-margin-left: 125px;}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-
-  .dropdown button {
-    cursor: pointer;
-    font-family: "montserrat" , sans-serif;
+        body {
     display: flex;
-
-justify-content: space-around;
-
-width: 30%;
-border: none;
-color: #000080;
-letter-spacing: 3px;
-font-weight: bold;
-font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
   }
-
-  .dropdown a {
-    display: block;
-    color: #000080;
-    text-decoration: none;
-    padding: 10px 15px;
-    background-color: white;
+  
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
   }
-
-  .dropdown .content {
-    display: none;
-    position: absolute;
-    min-width: 100px;
-    box-shadow: 2px 2px 5px #000080;
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
- 
-  .dropdown:hover .content {
-    display: block;
-  } 
-
-  .OBLFC {
-   display: table;
-   font-family: "Montserrat", sans-serif;
-   margin-top: 50px;
-   margin-left: 125px;
-  }
-
-  body {
-  background-image: url('https://pbs.twimg.com/media/F-kSyP2XkAAMhLf?format=jpg&name=small');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-
-
-      * {
-
-margin: 0px;
-
-padding: 0px;
-
-box-sizing: border-box;
-
-}
-
-.body-text {
-
-display: table;
-
-font-family: "Montserrat", sans-serif;
-
-align-items: left;
-
-justify-content: left;
-
-margin-top: 125px;
-
-margin-left: 125px;
-
-}
-
-nav {
-
-display: flex;
-
-justify-content: space-around;
-
-align-items: center;
-
-min-height: 8vh;
-
-background-color: rgb(255, 255, 255);
-
-font-family: "Montserrat", sans-serif;
-
-}
-
-.heading {
-
-color: ##000080;
-
-text-transform: uppercase;
-
-letter-spacing: 5px;
-
-font-size: 20px;
-
-}
-
-.nav-links {
-
-display: flex;
-
-justify-content: space-around;
-
-width: 30%;
-
-}
-
-.nav-links li {
-
-list-style: none;
-
-}
-
-.nav-links a {
-
-color: #000080;
-
-text-decoration: none;
-
-letter-spacing: 3px;
-
-font-weight: bold;
-
-font-size: 14px;
-
-padding: 14px 16px;
-
-}
-
-.nav-links a:hover:not(.active) {
-
-background-color: white;
-
-}
-
-.nav-links li a.active {
-
-background-color: white;
-
-}
-    </style>
-    
-  </head>
-  <body>
-    <p style="background-image: url('https://pbs.twimg.com/media/F-kSyP2XkAAMhLf?format=jpg&name=small');"></p>
-    <nav>
-      <div class="heading">
-        <h4 style="color: #000080;" >Our site is being Renovated, well be be back in a while</h4>
       
+        body {
+            background-color: grey;
+        }
 
-        </div>
-        </div>
-      </ul>
-    </nav>
-    </button>
-    <div class="wrapper">
+        h1 {
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h2 {
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="3; URL=receipt.html">
+  <title>Printing receipt...</title>
+</head>
+<body>
+  <div class="loader"></div>
+  <h1 style="text-align: center; margin-top: 20%;">Loading....</h1>
+  <h2 style="text-align: center; margin-top: 40px;"></h2>
+</body>
+</html>
     <div class="OBLFC" style="color: white;"><h1>O B L F C</h1></div>
     </div>
     <div class="body-text" style="color: white;"><h1>Osama<br>Bin<br>Laden<br>Football<br>Club</h1></div>
